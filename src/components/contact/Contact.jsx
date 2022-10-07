@@ -9,7 +9,7 @@ import "react-toastify/dist/ReactToastify.css"
 
 const Contact = () => {
   const showToastMessage = () => {
-    toast.success("Message Sent Successfully 👍", {
+    toast.success("Message Sent Successfully 👍 ", {
       position: toast.POSITION.TOP_RIGHT,
     })
   }
