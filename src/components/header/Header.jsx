@@ -10,7 +10,7 @@ import MovingComponent from "react-moving-text"
 const Header = () => {
   return (
     <header>
-      <div className="container header_container">
+      <div className="container header_container" id='home'>
       <MovingComponent
   type="bounce"
   duration="1000ms"

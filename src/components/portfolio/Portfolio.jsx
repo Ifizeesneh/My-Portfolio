@@ -15,10 +15,10 @@ const Portfolio = () => {
           <h3>Intercity Web Page</h3>
           <div className="portfolio_item-cta">
             {" "}
-            <a href="http://github.com" target="_blank" className="btn">
+            <a href="http://github.com" target="_blank" rel="noreferrer" className="btn">
               Github
             </a>
-            <a href="http://intercity.ng" target="_blank" className="btn btn-primary">
+            <a href="http://intercity.ng" target="_blank"  rel="noreferrer" className="btn btn-primary">
               Demo
             </a>
           </div>
@@ -30,10 +30,10 @@ const Portfolio = () => {
           <h3>Portfolio Item Title</h3>
           <div className="portfolio_item-cta">
             {" "}
-            <a href="http://github.com" target="_blank" className="btn">
+            <a href="http://github.com" target="_blank" rel="noreferrer" className="btn">
             Github
             </a>
-            <a href="http://github.com" target="_blank" className="btn btn-primary">
+            <a href="http://github.com" target="_blank" rel="noreferrer" className="btn btn-primary">
               Demo
             </a>
           </div>
@@ -45,10 +45,10 @@ const Portfolio = () => {
           <h3>Portfolio Item Title</h3>
           <div className="portfolio_item-cta">
             {" "}
-            <a href="http://github.com" target="_blank" className="btn">
+            <a href="http://github.com" target="_blank" rel="noreferrer" className="btn">
             Github
             </a>
-            <a href="http://github.com" target="_blank" className="btn btn-primary">
+            <a href="http://github.com" target="_blank" rel="noreferrer" className="btn btn-primary">
               Demo
             </a>
           </div>
@@ -60,10 +60,10 @@ const Portfolio = () => {
           <h3>Portfolio Item Title</h3>
           <div className="portfolio_item-cta">
             {" "}
-            <a href="http://github.com" target="_blank" className="btn">
+            <a href="http://github.com" target="_blank" rel="noreferrer" className="btn">
             Github
             </a>
-            <a href="http://github.com" target="_blank" className="btn btn-primary">
+            <a href="http://github.com" target="_blank" rel="noreferrer" className="btn btn-primary">
               Demo
             </a>
           </div>
@@ -75,10 +75,10 @@ const Portfolio = () => {
           <h3>Portfolio Item Title</h3>
           <div className="portfolio_item-cta">
             {" "}
-            <a href="http://github.com" target="_blank" className="btn">
+            <a href="http://github.com" target="_blank" rel="noreferrer" className="btn">
             Github
             </a>
-            <a href="http://github.com" target="_blank" className="btn btn-primary">
+            <a href="http://github.com" target="_blank" rel="noreferrer" className="btn btn-primary">
               Demo
             </a>
           </div>
@@ -90,10 +90,10 @@ const Portfolio = () => {
           <h3>Portfolio Item Title</h3>
           <div className="portfolio_item-cta">
             {" "}
-            <a href="http://github.com" target="_blank" className="btn">
+            <a href="http://github.com" target="_blank" rel="noreferrer" className="btn">
             Github
             </a>
-            <a href="http://github.com" target="_blank" className="btn btn-primary">
+            <a href="http://github.com" target="_blank" rel="noreferrer" className="btn btn-primary">
               Demo
             </a>
           </div>

@@ -6,9 +6,9 @@ import {FaTwitter} from 'react-icons/fa'
 const HeaderSocials = () => {
   return (
     <div className='header__socials'>
-      <a href="http://linkedin.com" target="_blank" ><BsLinkedin /></a>
-      <a href="http://github.com" target="_blank" ><FaGithub /></a>
-      <a href="http://twitter.com" target="_blank" ><FaTwitter /></a>
+      <a href="http://linkedin.com" target="_blank" rel="noreferrer" ><BsLinkedin /></a>
+      <a href="http://github.com" target="_blank" rel="noreferrer" ><FaGithub /></a>
+      <a href="http://twitter.com" target="_blank" rel="noreferrer"><FaTwitter /></a>
     </div>
   )
 }
