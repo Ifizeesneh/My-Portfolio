@@ -1,6 +1,11 @@
 import React from "react"
 import "./portfolio.css"
 import intercity from "../../assets/intercity.png"
+import fizeefoods from "../../assets/fizeefoods.png"
+import howbodi from "../../assets/howbodi.png"
+import admination from "../../assets/admination.png"
+import fizeeflix from "../../assets/fizeeflix.png"
+import admin from "../../assets/admin.png"
 
 const Portfolio = () => {
   return (
@@ -12,93 +17,152 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={intercity} alt="intercity page" />
           </div>
-          <h3>Intercity Web Page</h3>
+          <h3>Intercity Web Site</h3>
           <div className="portfolio_item-cta">
             {" "}
-            <a href="http://github.com" target="_blank" rel="noreferrer" className="btn">
+            <a
+              href="http://github.com"
+              target="_blank"
+              rel="noreferrer"
+              className="btn"
+            >
               Github
             </a>
-            <a href="http://intercity.ng" target="_blank"  rel="noreferrer" className="btn btn-primary">
+            <a
+              href="http://intercity.ng"
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-primary"
+            >
               Demo
             </a>
           </div>
         </article>
         <article className="portfolio_item">
           <div className="portfolio_item-image">
-            <img src={intercity} alt="intercity page" />
+            <img src={fizeefoods} alt="fizee foods" />
           </div>
-          <h3>Portfolio Item Title</h3>
+          <h3>Food Ordering Site</h3>
           <div className="portfolio_item-cta">
             {" "}
-            <a href="http://github.com" target="_blank" rel="noreferrer" className="btn">
-            Github
+            <a
+              href="https://github.com/Ifizeesneh/fizeeFoods"
+              target="_blank"
+              rel="noreferrer"
+              className="btn"
+            >
+              Github
             </a>
-            <a href="http://github.com" target="_blank" rel="noreferrer" className="btn btn-primary">
+            <a
+              href="https://fizeefoods.netlify.app"
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-primary"
+            >
               Demo
             </a>
           </div>
         </article>
         <article className="portfolio_item">
           <div className="portfolio_item-image">
-            <img src={intercity} alt="intercity page" />
+            <img src={howbodi} alt="howbodi page" />
           </div>
-          <h3>Portfolio Item Title</h3>
+          <h3>Howbodi Website</h3>
           <div className="portfolio_item-cta">
             {" "}
-            <a href="http://github.com" target="_blank" rel="noreferrer" className="btn">
-            Github
+            <a
+              href="http://github.com"
+              target="_blank"
+              rel="noreferrer"
+              className="btn"
+            >
+              Github
             </a>
-            <a href="http://github.com" target="_blank" rel="noreferrer" className="btn btn-primary">
+            <a
+              href="https://howbodiwebsite.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-primary"
+            >
               Demo
             </a>
           </div>
         </article>
         <article className="portfolio_item">
           <div className="portfolio_item-image">
-            <img src={intercity} alt="intercity page" />
+            <img src={admination} alt="intercity page" />
           </div>
-          <h3>Portfolio Item Title</h3>
+          <h3>Adnimation single page</h3>
           <div className="portfolio_item-cta">
             {" "}
-            <a href="http://github.com" target="_blank" rel="noreferrer" className="btn">
-            Github
+            <a
+              href="https://github.com/Ifizeesneh/Adnimation"
+              target="_blank"
+              rel="noreferrer"
+              className="btn"
+            >
+              Github
             </a>
-            <a href="http://github.com" target="_blank" rel="noreferrer" className="btn btn-primary">
+            <a
+              href="https://adnimation.netlify.app"
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-primary"
+            >
               Demo
             </a>
           </div>
         </article>
         <article className="portfolio_item">
           <div className="portfolio_item-image">
-            <img src={intercity} alt="intercity page" />
+            <img src={fizeeflix} alt="intercity page" />
           </div>
-          <h3>Portfolio Item Title</h3>
+          <h3>My Movie site showing Top 500 movies from TMDB</h3>
           <div className="portfolio_item-cta">
             {" "}
-            <a href="http://github.com" target="_blank" rel="noreferrer" className="btn">
-            Github
+            <a
+              href="https://github.com/Ifizeesneh/fizeeflix"
+              target="_blank"
+              rel="noreferrer"
+              className="btn"
+            >
+              Github
             </a>
-            <a href="http://github.com" target="_blank" rel="noreferrer" className="btn btn-primary">
+            <a
+              href="https://ifizeeflix.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-primary"
+            >
               Demo
             </a>
           </div>
         </article>
         <article className="portfolio_item">
           <div className="portfolio_item-image">
-            <img src={intercity} alt="intercity page" />
+            <img src={admin} alt="intercity page" />
           </div>
-          <h3>Portfolio Item Title</h3>
+          <h3>Admin Website</h3>
           <div className="portfolio_item-cta">
             {" "}
-            <a href="http://github.com" target="_blank" rel="noreferrer" className="btn">
-            Github
+            <a
+              href="https://github.com/Ifizeesneh/Admin-dashboard"
+              target="_blank"
+              rel="noreferrer"
+              className="btn"
+            >
+              Github
             </a>
-            <a href="http://github.com" target="_blank" rel="noreferrer" className="btn btn-primary">
+            <a
+              href="https://ife-admin-dashboard.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-primary"
+            >
               Demo
             </a>
           </div>
         </article>
-        
       </div>
     </section>
   )
