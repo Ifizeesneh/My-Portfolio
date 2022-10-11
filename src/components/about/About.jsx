@@ -26,12 +26,12 @@ const About = () => {
             <article className="about_card">
               <GrWorkshop className="about_icon"/>
               <h5>Clients</h5>
-              <small>50+</small>
+              <small>20+</small>
             </article>
             <article className="about_card">
               <GrWorkshop className="about_icon"/>
               <h5>Projects</h5>
-              <small>50+ Completed</small>
+              <small>20+ Completed</small>
             </article>
           </div>
           <p>Solution-focused Frontend Engineer with experience in web-based applications and Software Solutions. Participated in development and implementation of Apps, Logical and results- driven Developer dedicated to building and optimizing user-focused Solutions for customers with various business objectives.</p>
