@@ -37,14 +37,14 @@ const Footer = () => {
         </li>
       </ul>
       <div className="footer_socials">
-        <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/ifeoluwa-dele-oyero-63411a223/" target="_blank" rel="noopener noreferrer">
           <BsLinkedin />
         </a>
-        <a href="http://twitter.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://twitter.com/ifizeesneh" target="_blank" rel="noopener noreferrer">
           <SiTwitter />
         </a>
         <a
-          href="http://instagram.com"
+          href="https://www.instagram.com/ifizeesneh/"
           target="_blank"
           rel="noopener noreferrer"
         >

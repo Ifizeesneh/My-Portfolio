@@ -3,9 +3,9 @@ import "./portfolio.css"
 import intercity from "../../assets/intercity.png"
 import fizeefoods from "../../assets/fizeefoods.png"
 import howbodi from "../../assets/howbodi.png"
-import admination from "../../assets/admination.png"
+import fixmeet from "../../assets/fixmeet.png"
 import fizeeflix from "../../assets/fizeeflix.png"
-import admin from "../../assets/admin.png"
+import myestate from "../../assets/myestate.png"
 
 const Portfolio = () => {
   return (
@@ -90,13 +90,13 @@ const Portfolio = () => {
         </article>
         <article className="portfolio_item">
           <div className="portfolio_item-image">
-            <img src={admination} alt="intercity page" />
+            <img src={fixmeet} alt="Fixmeet App" />
           </div>
-          <h3>Adnimation single page</h3>
+          <h3>Fixmeet App for sheduled meetings</h3>
           <div className="portfolio_item-cta">
             {" "}
             <a
-              href="https://github.com/Ifizeesneh/Adnimation"
+              href="https://github.com/Ifizeesneh/"
               target="_blank"
               rel="noreferrer"
               className="btn"
@@ -104,7 +104,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://adnimation.netlify.app"
+              href="https://fixmeet.app/"
               target="_blank"
               rel="noreferrer"
               className="btn btn-primary"
@@ -140,13 +140,13 @@ const Portfolio = () => {
         </article>
         <article className="portfolio_item">
           <div className="portfolio_item-image">
-            <img src={admin} alt="intercity page" />
+            <img src={myestate} alt="My Estate App" />
           </div>
-          <h3>Admin Website</h3>
+          <h3>My Estate App</h3>
           <div className="portfolio_item-cta">
             {" "}
             <a
-              href="https://github.com/Ifizeesneh/Admin-dashboard"
+              href="https://github.com/Ifizeesneh/"
               target="_blank"
               rel="noreferrer"
               className="btn"
@@ -154,7 +154,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://ife-admin-dashboard.netlify.app/"
+              href="https://myestate.app/"
               target="_blank"
               rel="noreferrer"
               className="btn btn-primary"
