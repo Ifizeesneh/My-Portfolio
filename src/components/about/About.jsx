@@ -34,7 +34,8 @@ const About = () => {
               <small>20+ Completed</small>
             </article>
           </div>
-          <p>Solution-focused Frontend Engineer with experience in web-based applications and Software Solutions. Participated in development and implementation of Apps, Logical and results- driven Developer dedicated to building and optimizing user-focused Solutions for customers with various business objectives.</p>
+          <p>Solution-focused Frontend Engineer with experience in web-based applications and Software Solutions.
+             Logical and results- driven Developer dedicated to building and optimizing user-focused Solutions for customers with various business objectives.</p>
            <a href="#contact" className='btn btn-primary'>Lets Talk</a> 
         </div>
       </div>
