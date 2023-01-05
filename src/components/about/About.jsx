@@ -19,7 +19,7 @@ const About = () => {
             <article className="about_card">
               <GrWorkshop className="about_icon"/>
               <h5>Experience</h5>
-              <small>2+ years</small>
+              <small>3+ years</small>
               
               
             </article>
