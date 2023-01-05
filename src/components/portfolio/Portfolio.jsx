@@ -79,7 +79,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://howbodiwebsite.netlify.app/"
+              href="https://howbodi.io"
               target="_blank"
               rel="noreferrer"
               className="btn btn-primary"
