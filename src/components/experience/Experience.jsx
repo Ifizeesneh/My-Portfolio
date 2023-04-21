@@ -5,7 +5,7 @@ import {AiFillHtml5} from 'react-icons/ai'
 import {RiCss3Line} from 'react-icons/ri'
 import {TbBrandJavascript} from 'react-icons/tb'
 import {FaReact} from 'react-icons/fa'
-import {SiBootstrap, SiChakraui} from 'react-icons/si'
+import {SiTailwindcss, SiChakraui} from 'react-icons/si'
 
 const Experience = () => {
   return (
@@ -49,9 +49,9 @@ const Experience = () => {
              
             </article>
             <article className='experience_details'>
-              <SiBootstrap className='experience_details-icon'/>
+              <SiTailwindcss className='experience_details-icon'/>
               <div>
-              <h4>Bootstrap</h4>
+              <h4>Tailwind Css</h4>
               <small className='text-light'>Experienced</small>
               </div>
              
