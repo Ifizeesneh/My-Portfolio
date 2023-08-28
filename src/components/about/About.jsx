@@ -1,6 +1,7 @@
 import React from "react"
 import myself from "../../assets/myself.png"
-import {GrWorkshop} from 'react-icons/gr'
+import {FcWorkflow} from 'react-icons/fc'
+import {BsPeople, BsAppIndicator} from 'react-icons/bs'
 import "./about.css"
 
 const About = () => {
@@ -17,19 +18,19 @@ const About = () => {
         <div className="about_content">
           <div className="about_cards">
             <article className="about_card">
-              <GrWorkshop className="about_icon"/>
+              <FcWorkflow className="about_icon"/>
               <h5>Experience</h5>
-              <small>3+ years</small>
+              <small>2+ years</small>
               
               
             </article>
             <article className="about_card">
-              <GrWorkshop className="about_icon"/>
+              <BsPeople className="about_icon"/>
               <h5>Clients</h5>
               <small>20+</small>
             </article>
             <article className="about_card">
-              <GrWorkshop className="about_icon"/>
+              <BsAppIndicator className="about_icon"/>
               <h5>Projects</h5>
               <small>20+ Completed</small>
             </article>

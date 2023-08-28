@@ -4,7 +4,7 @@ import intercity from "../../assets/intercity.png"
 import fizeefoods from "../../assets/fizeefoods.png"
 import howbodi from "../../assets/howbodi.png"
 import fixmeet from "../../assets/fixmeet.png"
-import fizeeflix from "../../assets/fizeeflix.png"
+import jojolo from "../../assets/jojolo.png"
 import myestate from "../../assets/myestate.png"
 
 const Portfolio = () => {
@@ -115,13 +115,13 @@ const Portfolio = () => {
         </article>
         <article className="portfolio_item">
           <div className="portfolio_item-image">
-            <img src={fizeeflix} alt="intercity page" />
+            <img src={jojolo} alt="intercity page" />
           </div>
-          <h3>My Movie site showing Top 500 movies from TMDB</h3>
+          <h3>Jojolo App to speak or chat with a doctor or childcare specialist</h3>
           <div className="portfolio_item-cta">
             {" "}
             <a
-              href="https://github.com/Ifizeesneh/fizeeflix"
+              href="https://github.com/Ifizeesneh/"
               target="_blank"
               rel="noreferrer"
               className="btn"
@@ -129,7 +129,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://ifizeeflix.netlify.app/"
+              href="https://www.jojoloapp.com/"
               target="_blank"
               rel="noreferrer"
               className="btn btn-primary"
