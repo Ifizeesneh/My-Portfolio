@@ -27,7 +27,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck  className="service_list-icon"/>
-              <p>Build a web app that will change people’s minds</p>
+              <p>Build a web app that will convince potential client with a Smooth user experience</p>
             </li>
             
           </ul>
@@ -70,7 +70,7 @@ const Services = () => {
           <ul className="service_list">
             <li>
               <BiCheck  className="service_list-icon"/>
-              <p>Integrate new features that your customers ask for</p>
+              <p>Integrate new features upon request for a defined UX experience</p>
             </li>
             <li>
               <BiCheck  className="service_list-icon"/>
@@ -82,7 +82,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck  className="service_list-icon"/>
-              <p>Enhance your web app with a team dedicated to making your ideas work.</p>
+              <p>Enhance your web app with a team committed to bringing your ideas to life.</p>
             </li>
             
           </ul>
