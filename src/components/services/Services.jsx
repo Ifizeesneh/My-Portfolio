@@ -27,7 +27,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck  className="service_list-icon"/>
-              <p>Build a web app that will convince potential client with a Smooth user experience</p>
+              <p>Build a web app that will convince potential clients with a Smooth user experience</p>
             </li>
             
           </ul>
