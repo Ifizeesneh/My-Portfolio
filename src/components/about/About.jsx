@@ -19,20 +19,16 @@ const About = () => {
           <div className="about_cards">
             <article className="about_card">
               <FcWorkflow className="about_icon"/>
-              <h5>Experience</h5>
-              <small>2+ years</small>
-              
-              
+              <h5>Experienced</h5>
+                           
             </article>
             <article className="about_card">
               <BsPeople className="about_icon"/>
-              <h5>Clients</h5>
-              <small>20+</small>
+              <h5>Reliable</h5>
             </article>
             <article className="about_card">
               <BsAppIndicator className="about_icon"/>
-              <h5>Projects</h5>
-              <small>20+ Completed</small>
+              <h5>Problem Solver</h5>
             </article>
           </div>
           <p>Solution-focused Frontend Engineer with experience in web-based applications and Software Solutions.

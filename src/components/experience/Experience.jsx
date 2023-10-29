@@ -5,13 +5,15 @@ import {AiFillHtml5} from 'react-icons/ai'
 import {RiCss3Line} from 'react-icons/ri'
 import {TbBrandJavascript} from 'react-icons/tb'
 import {FaReact} from 'react-icons/fa'
-import {SiTailwindcss, SiChakraui} from 'react-icons/si'
+import {SiTypescript} from 'react-icons/si'
+import {TbBrandNextjs} from 'react-icons/tb'
+import {SiTailwindcss, SiRedux} from 'react-icons/si'
 
 const Experience = () => {
   return (
     <section id='experience'>
       <h5>My Skills</h5>
-      <h2>My Experience</h2>
+      <h2>Computing & Soft Skills</h2>
       <div className="container experience_container">
         <div className="experience_frontend">
           <h3>Frontend Development</h3>
@@ -49,17 +51,33 @@ const Experience = () => {
              
             </article>
             <article className='experience_details'>
-              <SiTailwindcss className='experience_details-icon'/>
+              <SiTypescript className='experience_details-icon'/>
               <div>
-              <h4>Tailwind Css</h4>
+              <h4>TypeScript</h4>
               <small className='text-light'>Experienced</small>
               </div>
              
             </article>
             <article className='experience_details'>
-              <SiChakraui className='experience_details-icon'/>
+              <TbBrandNextjs className='experience_details-icon'/>
               <div>
-              <h4>Chakra UI</h4>
+              <h4>NextJs</h4>
+              <small className='text-light'>Experienced</small>
+              </div>
+             
+            </article>
+            <article className='experience_details'>
+              <SiTailwindcss className='experience_details-icon'/>
+              <div>
+              <h4>Tailwind CSS</h4>
+              <small className='text-light'>Experienced</small>
+              </div>
+             
+            </article>
+            <article className='experience_details'>
+              <SiRedux className='experience_details-icon'/>
+              <div>
+              <h4>Redux</h4>
               <small className='text-light'>Experienced</small>
               </div>
              
