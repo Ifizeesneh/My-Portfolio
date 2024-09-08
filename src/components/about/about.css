@@ -3,6 +3,7 @@
   grid-template-columns: 35% 50%;
   gap: 15%;
 }
+
 .about_me {
   width: 100%;
   aspect-ratio: 1/1;
@@ -15,18 +16,33 @@
   );
   display: grid;
   place-items: center;
+  animation: float 6s ease-in-out infinite;
 }
 
-.about_me-image{
+.about_me-image {
   border-radius: 2rem;
   height: 100%;
   overflow: hidden;
-  transform: rotate(10deg);
-  transition: var(--transition);
+  transform: rotate(10deg) scale(1);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
-.about_me-image:hover{
-  transform: rotate(0deg);
+.about_me-image:hover {
+  transform: rotate(0deg) scale(1.05); /* Adds slight zoom effect */
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15); /* Subtle shadow on hover */
+}
+
+/* Keyframe animation for floating effect */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .about_cards{

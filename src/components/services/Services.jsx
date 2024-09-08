@@ -10,7 +10,7 @@ const Services = () => {
       <div className="container services_container">
         <article className="service">
           <div className="service_head">
-            <h3>To upgrade your web application</h3>
+            <h3>To upgrade your application</h3>
           </div>
           <ul className="service_list">
             <li>
@@ -34,7 +34,7 @@ const Services = () => {
         </article>
         <article className="service">
           <div className="service_head">
-            <h3>To create a web app from scratch</h3>
+            <h3>To create a software solution from scratch</h3>
           </div>
           <ul className="service_list">
             <li>
@@ -65,7 +65,7 @@ const Services = () => {
         </article>
         <article className="service">
           <div className="service_head">
-            <h3>To customize your web application</h3>
+            <h3>To customize your application</h3>
           </div>
           <ul className="service_list">
             <li>
