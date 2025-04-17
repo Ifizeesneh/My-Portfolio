@@ -7,7 +7,8 @@ import {TbBrandJavascript} from 'react-icons/tb'
 import {FaReact} from 'react-icons/fa'
 import {SiTypescript} from 'react-icons/si'
 import {TbBrandNextjs} from 'react-icons/tb'
-import {SiTailwindcss, SiRedux} from 'react-icons/si'
+import {SiTailwindcss} from 'react-icons/si'
+import { TbBrandReactNative } from "react-icons/tb";
 
 const Experience = () => {
   return (
@@ -75,9 +76,9 @@ const Experience = () => {
              
             </article>
             <article className='experience_details'>
-              <SiRedux className='experience_details-icon'/>
+              <TbBrandReactNative className='experience_details-icon'/>
               <div>
-              <h4>Redux</h4>
+              <h4>React Native</h4>
               <small className='text-light'>Experienced</small>
               </div>
              
