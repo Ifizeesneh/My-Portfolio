@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { BsLinkedin } from 'react-icons/bs';
-import { FaGithub, FaTwitter } from 'react-icons/fa';
+
+import { FaGithub } from 'react-icons/fa';
 
 const HeaderSocials = () => {
   const socialVariants = {
@@ -45,7 +45,7 @@ const HeaderSocials = () => {
       initial="hidden"
       animate="visible"
     >
-      <motion.a 
+      {/* <motion.a 
         href="https://www.linkedin.com/in/ifeoluwa-dele-oyero-63411a223/" 
         target="_blank" 
         rel="noreferrer"
@@ -55,7 +55,7 @@ const HeaderSocials = () => {
         className="social-link"
       >
         <BsLinkedin />
-      </motion.a>
+      </motion.a> */}
       
       <motion.a 
         href="https://github.com/Ifizeesneh" 
@@ -69,7 +69,7 @@ const HeaderSocials = () => {
         <FaGithub />
       </motion.a>
       
-      <motion.a 
+      {/* <motion.a 
         href="https://twitter.com/ifizeesneh" 
         target="_blank" 
         rel="noreferrer"
@@ -79,7 +79,7 @@ const HeaderSocials = () => {
         className="social-link"
       >
         <FaTwitter />
-      </motion.a>
+      </motion.a> */}
 
       <div className="socials-line"></div>
     </motion.div>

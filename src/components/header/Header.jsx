@@ -125,7 +125,7 @@ const Header = () => {
         >
           <h2 className="job-title">
             <span className="title-line">Software Engineer</span>
-            <span className="title-subline">Frontend Specialist</span>
+            {/* <span className="title-subline">Frontend Specialist</span> */}
           </h2>
         </motion.div>
 
